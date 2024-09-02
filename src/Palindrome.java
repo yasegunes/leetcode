@@ -3,12 +3,12 @@ public class Palindrome {
     public int palindrome(int sayi) {
 
         int uzunluk = 0;
-        int sayi2 = sayi;
+        int sayii = sayi;
 
         for (int i = 1; i <= 100; i++) {
-            sayi2 = sayi2 / 10;
+            sayii = sayii / 10;
             uzunluk++;
-            if (sayi2 == 0) {
+            if (sayii == 0) {
                 break;
             } else {
                 i++;
