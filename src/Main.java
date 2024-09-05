@@ -2,7 +2,7 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        Palindrome p1 = new Palindrome();
+        /*Palindrome p1 = new Palindrome();
         System.out.println(p1.palindrome(8998));
         StarTree st1 = new StarTree();
         st1.starTree(5);
@@ -12,7 +12,10 @@ public class Main {
         int[] array3 = mt.mergeTwoSortedLists(array1, array2);
         for (int i = 0; i < array3.length; i++) {
             System.out.println(array3[i]);
-        }
+        }*/
+        ArmstrongNumbers a = new ArmstrongNumbers();
+        System.out.println(a.isArmstrong(153));
+
     }
 
 
