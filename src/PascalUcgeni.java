@@ -11,9 +11,7 @@ public class PascalUcgeni {
             for(int j = 1; j < i; j++){
                 pascal[i][j] = pascal[i-1][j-1] + pascal[i-1][j];
             }
-            for (int num : pascal[i]) {
-                System.out.print(num + " ");
-            }
+            DiziIslemleri.diziyiyazdir(pascal[i]);
             System.out.println();
         }
     }
