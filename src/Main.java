@@ -12,9 +12,10 @@ public class Main {
         int[] array3 = mt.mergeTwoSortedLists(array1, array2);
         for (int i = 0; i < array3.length; i++) {
             System.out.println(array3[i]);
-        }*/
+        }
         ArmstrongNumbers a = new ArmstrongNumbers();
         System.out.println(a.isArmstrong(153));
+        */
 
     }
 
