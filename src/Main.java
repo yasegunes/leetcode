@@ -16,6 +16,8 @@ public class Main {
         ArmstrongNumbers a = new ArmstrongNumbers();
         System.out.println(a.isArmstrong(153));
         */
+        PascalUcgeni p2 = new PascalUcgeni();
+        p2.pascalucgeni(6);
 
     }
 
