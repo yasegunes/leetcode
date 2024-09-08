@@ -23,5 +23,35 @@ public class DiziIslemleri {
         }
         return dizi;
     }
+    public static int[] diziyisadelestir(int[] dizi) {
+        int boyut = dizi.length;
+        int[] gecici = new int[boyut];
+        int degisken = 0;
+        boolean bulundu;
+
+        for (int i = 0; i < dizi.length; i++) {
+            bulundu = false;
+
+            for (int j = 0; j < degisken; j++) {
+                if (dizi[i] == gecici[j]) {
+                    bulundu = true;
+                    break;
+                }
+            }
+
+            if (!bulundu) {
+                gecici[degisken] = dizi[i];
+                degisken++;
+            }
+        }
+
+
+        int[] sonuc = new int[degisken];
+        for (int i = 0; i < degisken; i++) {
+            sonuc[i] = gecici[i];
+        }
+
+        return sonuc;
+    }
 
 }
