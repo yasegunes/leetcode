@@ -36,10 +36,17 @@ public class Main {
 
         AdamAsmaca adamasmaca = new AdamAsmaca();
         adamasmaca.AdamAsmaca("mesele büyük");
-        */
 
         int array5[] = {1, 9, 3, 2, 4, 5, 3, 6, 4, 8};
         DiziIslemleri.diziyiyazdir(DiziIslemleri.diziyisadelestir(array5));
+        */
+        AsalSayi asalSayi = new AsalSayi();
+        int n =100;
+        asalSayi.eratostheneselegi(n);
+
+
+
+
 
 
 
