@@ -8,22 +8,7 @@ public class MergeTwoSortedLists {
             sonuc[A.length + i] = B[i];
 
         }
-        int degisken;
-        for (int i = 0; i < sonuc.length; i++) {
-            for (int j = 0; j < sonuc.length; j++) {
-                if (sonuc[i] > sonuc[j]) {
-                    degisken = sonuc[i];
-                    sonuc[i] = sonuc[j];
-                    sonuc[i] = degisken;
-                }
-                else {
-                    degisken = sonuc[j];
-                    sonuc[j] = sonuc[i];
-                    sonuc[i] = degisken;
-
-                }
-            }
-        }
+        sonuc = DiziIslemleri.diziyisirala(sonuc);
         return sonuc;
 
     }
